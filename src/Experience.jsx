@@ -8,7 +8,7 @@ export default function Experience() {
 
     return <>
         <directionalLight/>
-        <Environment preset={'city'}/>
+        {/*<Environment preset={'city'} />*/}
 
         <color args={[environmentVariables.colors.fifth]} attach={'background'}/>
 
